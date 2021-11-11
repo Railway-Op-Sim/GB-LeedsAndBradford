@@ -1,0 +1,221 @@
+{
+  "startTime":"06:00",
+  "services": [
+    {
+      "ref":"2H07",
+      "description":"Skipton to Leeds",
+      "startSpeed":"120",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events": [
+        "06:31;Snt;N43-N15 N43-N14",
+        "06:32;06:32;Keighley",
+        "06:36;06:36;Crossflatts",
+        "06:38;06:39;Bingley",
+        "06:43;06:43;Saltaire",
+        "06:46;06:46;Shipley",
+        "07:02;Leeds",
+        "07:03;cdt",
+        "07:04;Fns;2P22"
+      ],
+      "times": [
+        "00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2P22",
+      "description":"Leeds to Bradford Forster Square",
+      "startSpeed":"0",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events":[
+        "07:04;Sns;2H07",
+        "07:11;Leeds",
+        "07:17;07:17;Kirstall Forge",
+        "07:21;07:22;Apperley Bridge",
+        "07:26;07:26;Shipley",
+        "07:29;07:29;Frizinghall",
+        "07:36;Bradford Forster Square",
+        "07:37;cdt",
+        "07:38;Fns;2D34"
+      ],
+      "times": [
+        "00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2D34",
+      "description":"Bradford Forster Square to Ilkley",
+      "startSpeed":"0",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events":[
+        "07:38;Sns;2P22",
+        "07:45;Bradford Forster Square",
+        "07:48;07:48;Frizinghall",
+        "07:52;07:53;Shipley",
+        "07:56;07:56;Baildon",
+        "08:02;08:02;Guiseley",
+        "08:05;08:05;Menston",
+        "08:08;08:08;Burley-in-Wharfedale",
+        "08:12;08:12;Ben Rhydding",
+        "08:16;Ilkley",
+        "08:17;cdt",
+        "08:18;Fns;2D37"
+      ],
+      "times": [
+        "00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2D37",
+      "description":"Ilkley to Bradford Forster Square",
+      "startSpeed":"0",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events":[
+        "08:18;Sns;2D34",
+        "08:22;Ilkley",
+        "08:24;08:24;Ben Rhydding",
+        "08:30;08:30;Burley-in-Wharfedale",
+        "08:33;08:33;Menston",
+        "08:37;08:37;Guiseley",
+        "08:42;08:43;Baildon",
+        "08:46;08:46;Shipley",
+        "08:50;08:50;Frizinghall",
+        "08:55;Bradford Forster Square",
+        "08:56;cdt",
+        "08:57;Fns;2S12"
+      ],
+      "times": [
+        "00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2S12",
+      "description":"Bradford Forster Square to Skipton",
+      "startSpeed":"0",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events":[
+        "08:57;Sns;2D37",
+        "09:07;Bradford Forster Square",
+        "09:10;09:10;Frizinghall",
+        "09:14;09:15;Shipley",
+        "09:17;09:18;Saltaire",
+        "09:21;09:22;Bingley",
+        "09:24;09:24;Crossflatts",
+        "09:28;09:29;Keighley",
+        "09:30;Fer;N44-N15"
+      ],
+      "times": [
+        "00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2S03",
+      "description":"Skipton to Bradford Forster Square",
+      "startSpeed":"120",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events": [
+        "06:47;Snt;N43-N15 N43-N14",
+        "06:48;06:48;Keighley",
+        "06:52;06:53;Crossflatts",
+        "06:55;06:55;Bingley",
+        "06:59;07:00;Saltaire",
+        "07:03;07:03;Shipley",
+        "07:07;07:08;Frizinghall",
+        "07:14;Bradford Forster Square",
+        "07:15;cdt",
+        "07:16;Fns;2P23"
+      ],
+      "times": [
+        "23:30","00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2P23",
+      "description":"Bradford Forster Square to Leeds",
+      "startSpeed":"120",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events": [
+        "07:16;Sns;2S03",
+        "07:30;Bradford Forster Square",
+        "07:33;07:33;Frizinghall",
+        "07:37;07:37;Shipley",
+        "07:42;07:42;Apperley Bridge",
+        "07:47;07:47;Kirstall Forge",
+        "07:55;Leeds",
+        "07:56;cdt",
+        "07:57;Fns;2V12"
+      ],
+      "times": [
+        "23:30","00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2V12",
+      "description":"Leeds to Ilkley",
+      "startSpeed":"120",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events": [
+        "07:57;Sns;2P23",
+        "07:58;Leeds",
+        "08:10;08:10;Guiseley",
+        "08:13;08:13;Menston",
+        "08:17;08:18;Burley-in-Wharfedale",
+        "08:21;08:21;Ben Rhydding",
+        "08:27;Ilkley",
+        "08:28;cdt",
+        "08:29;Fns;2V15"
+      ],
+      "times": [
+        "23:30","00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2V15",
+      "description":"Ilkley to Leeds",
+      "startSpeed":"120",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events": [
+        "08:29;Sns;2V12",
+        "08:40;Ilkley",
+        "08:42;08:42;Ben Rhydding",
+        "08:47;08:47;Burley-in-Wharfedale",
+        "08:50;08:50;Menston",
+        "08:54;08:54;Guiseley",
+        "09:10;Leeds",
+        "09:11;cdt",
+        "09:12;Fns;2H26"
+      ],
+      "times": [
+        "23:30","00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    },
+    {
+      "ref":"2H26",
+      "description":"Leeds to Skipton",
+      "startSpeed":"120",
+      "dataTemplate":"C333_4",
+      "increment":"2",
+      "events": [
+        "09:12;Sns;2V15",
+        "09:26;Leeds",
+        "09:37;09:38;Shipley",
+        "09:40;09:40;Saltaire",
+        "09:44;09:44;Bingley",
+        "09:46;09:46;Crossflatts",
+        "09:51;09:51;Keighley",
+        "09:52;Fer;N44-N15"
+      ],
+      "times": [
+        "23:30","00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
+      ]
+    }
+  ]
+}
