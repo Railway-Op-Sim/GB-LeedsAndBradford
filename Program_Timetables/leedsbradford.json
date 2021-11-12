@@ -491,6 +491,55 @@
       "times": [
         "23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
       ]
+    },
+    {
+      "ref":"2G13",
+      "description":"Carlisle to Leeds",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:09;Snt;N43-N15 N43-N14",
+        "06:10;06:10;Keighley",
+        "06:15;06:15;Bingley",
+        "06:20;06:20;Shipley",
+        "06:38;Leeds",
+        "06:39;cdt",
+        "06:40;Fns;2G14"
+      ],
+      "times": [
+        {"time":"00:00","description":"Skipton to Leeds"},
+        {"time":"01:00","description":"Lancaster to Leeds"},
+        {"time":"02:00","description":"Carlisle to Leeds"},
+        {"time":"03:00","description":"Carlisle to Leeds"},
+        {"time":"04:00","description":"Morecambe to Leeds"},
+        {"time":"05:00","description":"Carlisle to Leeds"},
+        {"time":"06:00","description":"Lancaster to Leeds"}
+      ]
+    },
+    {
+      "ref":"2G14",
+      "description":"Leeds to Carlisle",
+      "startSpeed":"0",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:40;Sns;2G13",
+        "07:18;Leeds",
+        "07:32;07:33;Shipley",
+        "07:37;07:37;Bingley",
+        "07:42;07:42;Keighley",
+        "07:43;Fer;N44-N15"
+      ],
+      "times": [
+        {"time":"00:00","description":"Leeds to Carlisle"},
+        {"time":"01:00","description":"Leeds to Morecambe"},
+        {"time":"02:00","description":"Leeds to Carlisle"},
+        {"time":"03:00","description":"Leeds to Lancaster"},
+        {"time":"04:00","description":"Leeds to Carlisle"},
+        {"time":"05:00","description":"Leeds to Morecambe"},
+        {"time":"06:00","description":"Leeds to Ribblehead"}
+      ]
     }
   ]
 }

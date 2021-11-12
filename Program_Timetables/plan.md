@@ -22,6 +22,8 @@ DONE - Except services that start before the pattern reaches it.
 First Patterned Services:
 - To Leeds : 2P23
 - From Leeds : 2P22
+### Leeds to Skipton/NORTH
+DONE
 ### Leeds to Knottingley via Castleford
 DONE
 ### Leeds to Knottingley via Wakefield
@@ -33,10 +35,7 @@ DONE
 ### Leeds to Sheffield via Moorthorpe and Rotherham
 DONE
 ### Leeds to Doncaster
-- To Leeds
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:DON/2021-11-22/0600-2000?stp=WVS&show=pax-calls&order=wtt&toc=NT
-- From Leeds
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:DON/2021-11-22/0600-2000?stp=WVS&show=pax-calls&order=wtt&toc=NT
+DONE
 
 ## LNER
 ### Leeds/Skipton/Harrogate/Bradford to London
