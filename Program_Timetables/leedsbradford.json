@@ -216,6 +216,80 @@
       "times": [
         "23:30","00:00","00:30","01:00","01:30","02:00","02:30","03:00","03:30","04:00","04:30","05:00","05:30","06:00","06:30","07:00"
       ]
+    },
+    {
+      "ref":"2C13",
+      "description":"York to Leeds",
+      "startSpeed":"97",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:50;Snt;36-N32 36-N31",
+        "08:51;08:52;Horsforth",
+        "08:56;08:56;Headingley",
+        "08:58;08:58;Burley Park",
+        "09:08;Leeds",
+        "09:09;cdt",
+        "09:10;Fns;2C20"
+      ],
+      "times": [
+        "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"2C20",
+      "description":"Leeds to York",
+      "startSpeed":"97",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "09:10;Sns;2C13",
+        "09:30;Leeds",
+        "09:34;09:35;Burley Park",
+        "09:37;09:37;Headingley",
+        "09:42;09:42;Horsforth",
+        "09:43;Fer;35-N32"
+      ],
+      "times": [
+        "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"2D17",
+      "description":"Knaresborough to Leeds",
+      "startSpeed":"97",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:35;Snt;36-N32 36-N31",
+        "08:36;08:37;Horsforth",
+        "08:41;08:41;Headingley",
+        "08:43;08:43;Burley Park",
+        "08:53;Leeds",
+        "08:54;cdt",
+        "08:55;Fns;2D26"
+      ],
+      "times": [
+        "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"2D26",
+      "description":"Leeds to Knaresborough",
+      "startSpeed":"97",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:55;Sns;2D17",
+        "08:59;Leeds",
+        "09:03;09:04;Burley Park",
+        "09:06;09:06;Headingley",
+        "09:11;09:11;Horsforth",
+        "09:12;Fer;35-N32"
+      ],
+      "times": [
+        "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
     }
   ]
 }
