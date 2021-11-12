@@ -290,6 +290,207 @@
       "times": [
         "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
       ]
+    },
+    {
+      "ref":"2F40",
+      "description":"Knottingley to Leeds (via Castleford)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:48;Snt;47-43 47-42",
+        "06:52;Leeds",
+        "06:53;cdt",
+        "06:54;Fns;2F03"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2F03",
+      "description":"Leeds to Knottingley (via Castleford)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:54;Sns;2F40",
+        "06:58;Leeds",
+        "07:01;Fer;48-43"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2A02",
+      "description":"Knottingley to Leeds (via Wakefield)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:12;Snt;27-44 27-43",
+        "08:16;Leeds",
+        "08:17;cdt",
+        "08:18;Fns;2A07"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2A07",
+      "description":"Leeds to Knottingley (via Wakefield)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:18;Sns;2A02",
+        "08:29;Leeds",
+        "08:33;Fer;28-44"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2A05",
+      "description":"Leeds to Knottingley (via Wakefield)",
+      "startSpeed":"0",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:00;Snt;70-25 69-25",
+        "06:15;Leeds",
+        "06:20;Fer;28-44"
+      ],
+      "times": [
+        "00:00"
+      ]
+    },
+    {
+      "ref":"2L38",
+      "description":"Sheffield to Leeds (via Castleford)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:20;Snt;47-43 47-42",
+        "06:24;Leeds",
+        "06:25;cdt",
+        "06:26;Fns;2L53"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2L53",
+      "description":"Leeds to Sheffield (via Castleford)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:26;Sns;2L38",
+        "06:32;Leeds",
+        "06:36;Fer;48-43"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"1Y00",
+      "description":"Nottingham to Leeds",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:12;Snt;47-43 47-42",
+        "08:17;Leeds",
+        "08:18;cdt",
+        "08:19;Fns;1Y07"
+      ],
+      "times": [
+        {"time":"22:00","description":"Sheffield to Leeds"},{"time":"23:00","description":"Chesterfield to Leeds"},"00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"1Y07",
+      "description":"Leeds to Nottingham",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:19;Sns;1Y00",
+        "09:09;Leeds",
+        "09:13;Fer;48-43"
+      ],
+      "times": [
+        "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"2N01",
+      "description":"Sheffield to Leeds (via Moorthope)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:27;Snt;27-44 27-43",
+        "06:31;Leeds",
+        "06:32;cdt",
+        "06:33;Fns;2N02"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2N02",
+      "description":"Leeds to Sheffield (via Moorthope)",
+      "startSpeed":"80",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:33;Sns;2N01",
+        "06:47;Leeds",
+        "06:48;Fer;28-44"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2B52",
+      "description":"Doncaster to Leeds",
+      "startSpeed":"80",
+      "dataTemplate":"C321/4_4",
+      "increment":"2",
+      "events": [
+        "07:11;Snt;27-44 27-43",
+        "07:15;Leeds",
+        "07:16;cdt",
+        "07:17;Fns;2B03"
+      ],
+      "times": [
+        "23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
+    },
+    {
+      "ref":"2B03",
+      "description":"Leeds to Doncaster",
+      "startSpeed":"80",
+      "dataTemplate":"C321/4_4",
+      "increment":"2",
+      "events": [
+        "07:17;Sns;2B52",
+        "07:22;Leeds",
+        "07:26;Fer;28-44"
+      ],
+      "times": [
+        "23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00"
+      ]
     }
   ]
 }
