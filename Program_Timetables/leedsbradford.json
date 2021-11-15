@@ -540,6 +540,207 @@
         {"time":"05:00","description":"Leeds to Morecambe"},
         {"time":"06:00","description":"Leeds to Ribblehead"}
       ]
+    },
+    {
+      "ref":"1B15",
+      "description":"York to Blackpool North",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "11:43;Snt;122-24 121-24",
+        "11:50;11:57;Leeds",
+        "12:06;12:07;New Pudsey",
+        "12:15;Bradford Interchange",
+        "12:16;cdt",
+        "12:17;Bradford Interchange",
+        "12:24;Fer;N35-21"
+      ],
+      "times": [
+        "19:00","20:00","21:00","22:00","23:00","00:00","01:00"
+      ]
+    },
+    {
+      "ref":"1B14",
+      "description":"Blackpool North to York",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "11:57;Snt;N35-20 N34-20",
+        "12:04;Bradford Interchange",
+        "12:05;cdt",
+        "12:06;Bradford Interchange",
+        "12:14;12:15;New Pudsey",
+        "12:27;12:30;Leeds",
+        "12:36;Fer;122-23"
+      ],
+      "times": [
+        "19:00","20:00","21:00","22:00","23:00","00:00","01:00"
+      ]
+    },
+    {
+      "ref":"2E01",
+      "description":"Manchester Victoria to Leeds",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:52;Snt;N35-20 N34-20",
+        "06:59;Bradford Interchange",
+        "07:00;cdt",
+        "07:02;Bradford Interchange",
+        "07:10;07:11;New Pudsey",
+        "07:14;07:14;Bramley",
+        "07:24;Leeds",
+        "07:25;cdt",
+        "07:26;Fns;1D72"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"1D72",
+      "description":"Leeds to Chester",
+      "startSpeed":"0",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "07:26;Sns;2E01",
+        "07:43;Leeds",
+        "07:48;07:49;Bramley",
+        "07:52;07:53;New Pudsey",
+        "08:01;Bradford Interchange",
+        "08:02;cdt",
+        "08:03;Bradford Interchange",
+        "08:09;08:10;Low Moor",
+        "08:12;Fer;N35-21"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"1E50",
+      "description":"Chester to Leeds",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:09;Snt;N35-20 N34-20",
+        "08:11;08:11;Low Moor",
+        "08:18;Bradford Interchange",
+        "08:19;cdt",
+        "08:20;Bradford Interchange",
+        "08:28;08:29;New Pudsey",
+        "08:32;08:32;Bramley",
+        "08:41;Leeds",
+        "08:42;cdt",
+        "08:43;Fns;1J09",
+      ],
+      "times": [
+        {"time":"22:00","description":"Hebden Bridge to Leeds"},{"time":"23:00","description":"Manchester Victoria to Leeds"},"00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"1J09",
+      "description":"Leeds to Manchester Victoria",
+      "startSpeed":"0",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "08:43;Sns;1E50",
+        "09:12;Leeds",
+        "09:18;09:18;Bramley",
+        "09:22;09:22;New Pudsey",
+        "09:30;Bradford Interchange",
+        "09:31;cdt",
+        "09:33;Bradford Interchange",
+        "09:40;Fer;N35-21"
+      ],
+      "times": [
+        "22:00","23:00","00:00","01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"2K04",
+      "description":"Halifax to Hull",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:21;Snt;N35-20 N34-20",
+        "06:28;Bradford Interchange",
+        "06:29;cdt",
+        "06:31;Bradford Interchange",
+        "06:39;06:39;New Pudsey",
+        "06:43;06:43;Bramley",
+        "06:52;06:54;Leeds",
+        "07:01;07:01;Cross Gates",
+        "07:02;Fer;122-23"
+      ],
+      "times": [
+        "00:00","02:00","04:00","06:00"
+      ]
+    },
+    {
+      "ref":"2K05",
+      "description":"Hull to Halifax",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "07:15;Snt;122-24 121-24",
+        "07:16;07:16;Cross Gates",
+        "07:24;07:27;Leeds",
+        "07:35;07:35;Bramley",
+        "07:39;07:40;New Pudsey",
+        "07:48;Bradford Interchange",
+        "07:49;cdt",
+        "07:52;Bradford Interchange",
+        "07:59;Fer;N35-21"
+      ],
+      "times": [
+        "00:00","02:00","04:00","06:00"
+      ]
+    },
+    {
+      "ref":"2I01",
+      "description":"Wigan North Western to Leeds",
+      "startSpeed":"100",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "06:44;Snt;N28-31 N27-31",
+        "06:45;06:46;Dewsbury",
+        "06:49;06:49;Batley",
+        "06:54;06:55;Morley",
+        "07:08;Leeds",
+        "07:09;cdt",
+        "07:10;Fns;2R84"
+      ],
+      "times": [
+        {"time":"00:00","description":"Brighouse to Leeds"},"01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
+    },
+    {
+      "ref":"2R84",
+      "description":"Leeds to Wigan North Western",
+      "startSpeed":"0",
+      "dataTemplate":"C158_2",
+      "increment":"2",
+      "events": [
+        "07:10;Sns;2I01",
+        "07:17;Leeds",
+        "07:24;07:25;Morley",
+        "07:30;07:30;Batley",
+        "07:33;07:34;Dewsbury",
+        "07:35;Fer;N28-32"
+      ],
+      "times": [
+        {"time":"00:00","description":"Leeds to Manchester Victoria"},"01:00","02:00","03:00","04:00","05:00","06:00"
+      ]
     }
   ]
 }

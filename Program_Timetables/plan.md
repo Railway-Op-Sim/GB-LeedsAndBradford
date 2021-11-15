@@ -51,22 +51,17 @@ DONE
 
 ### Leeds and Bradford Interchange
 #### Blackpool North - York
-- Bradford to Leeds:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:BYM/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=NT
-- Leeds to Bradford:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:BYM/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=NT
-##### Other
-- Bradford to Leeds:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:BDI/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=NT
-- Leeds to Bradford:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:BDI/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=NT
+DONE
+#### Chester and Manchester Victoria - Leeds
+DONE
+#### Halifax to Hull
+DONE
 
 ### Leeds to York (Ignore Halifax service)
-- To Leeds
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:EGF/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt
-- From Leeds
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:EGF/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt
+DONE
 
+### Leeds to Wigan (via Dewsbury)
+DONE
 
 ## Transpennine Express
 ### Hull to Manchester Piccadilly (One per hour)
