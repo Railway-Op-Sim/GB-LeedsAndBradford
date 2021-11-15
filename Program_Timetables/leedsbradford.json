@@ -741,6 +741,140 @@
       "times": [
         {"time":"00:00","description":"Leeds to Manchester Victoria"},"01:00","02:00","03:00","04:00","05:00","06:00"
       ]
+    },
+    {
+      "ref":"1K06",
+      "description":"Hull to Manchester Piccadilly",
+      "startSpeed":"100",
+      "dataTemplate":"C185_3",
+      "increment":"2",
+      "events": [
+        "06:55;Snt;122-24 121-24",
+        "07:04;07:07;Leeds",
+        "07:15;Fer;N28-32"
+      ],
+      "times": [
+        "23:06","00:00","01:00","02:00","03:00","04:00","05:00"
+      ]
+    },
+    {
+      "ref":"1K05",
+      "description":"Manchester Piccadilly to Hull",
+      "startSpeed":"100",
+      "dataTemplate":"C185_3",
+      "increment":"2",
+      "events": [
+        "06:20;Snt;N28-31 N27-31",
+        "06:33;06:36;Leeds",
+        "06:44;Fer;122-23"
+      ],
+      "times": [
+        "00:00","00:58","01:58","02:58","03:58","04:58","05:58","06:58"
+      ]
+    },
+    {
+      "ref":"2J49",
+      "description":"Huddersfield to Leeds",
+      "startSpeed":"100",
+      "dataTemplate":"C185_3",
+      "increment":"2",
+      "events": [
+        "06:08;Snt;N28-31 N27-31",
+        "06:09;06:09;Dewsbury",
+        "06:12;06:12;Batley",
+        "06:17;06:17;Morley",
+        "06:20;06:21;Cottingley",
+        "06:29;Leeds",
+        "06:30;cdt",
+        "06:31;Fns;2J52"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00"
+      ]
+    },
+    {
+      "ref":"2J52",
+      "description":"Leeds to Huddersfield",
+      "startSpeed":"0",
+      "dataTemplate":"C185_3",
+      "increment":"2",
+      "events": [
+        "06:31;Sns;2J49",
+        "06:47;Leeds",
+        "06:52;06:52;Cottingley",
+        "06:55;06:56;Morley",
+        "07:00;07:01;Batley",
+        "07:03;07:04;Dewsbury",
+        "07:05;Fer;N28-32"
+      ],
+      "times": [
+        "00:00","01:00","02:00","03:00","04:00","05:00","06:00","07:00"
+      ]
+    },
+    {
+      "ref":"9M03",
+      "description":"York to Liverpool Lime Street",
+      "startSpeed":"100",
+      "dataTemplate":"C185_3",
+      "increment":"2",
+      "events": [
+        "23:50;Snt;122-24 121-24",
+        "23:58;00:00;Leeds",
+        "00:10;00:11;Dewsbury",
+        "00:12;Fer;N28-32"
+      ],
+      "times": [
+        {"time":"06:30","ref":"9M03","description":"York to Liverpool Lime Street"},
+        {"time":"06:45","ref":"1P58","description":"York to Manchester Airport"},
+        {"time":"07:15","ref":"9M12","description":"York to Liverpool Lime Street"},
+        {"time":"07:45","ref":"1P60","description":"Redcar Central to Manchester Airport"},
+        {"time":"08:15","ref":"9M14","description":"Newcastle to Liverpool Lime Street"},
+        {"time":"08:45","ref":"1P62","description":"Redcar Central to Manchester Airport"},
+        {"time":"09:15","ref":"9M16","description":"Newcastle to Liverpool Lime Street"},
+        {"time":"09:45","ref":"1P64","description":"Redcar Central to Manchester Airport"},
+        {"time":"10:15","ref":"9M18","description":"Newcastle to Liverpool Lime Street"},
+        {"time":"10:45","ref":"1P66","description":"Redcar Central to Manchester Airport"},
+        {"time":"11:00","ref":"5F60","description":"York to Liverpool Lime Street"},
+        {"time":"11:15","ref":"9M20","description":"Newcastle to Liverpool Lime Street"},
+        {"time":"11:45","ref":"1P68","description":"Redcar Central to Manchester Airport"},
+        {"time":"12:15","ref":"9M22","description":"Newcastle to Liverpool Lime Street"},
+        {"time":"12:45","ref":"1P70","description":"Redcar Central to Manchester Airport"},
+        {"time":"13:15","ref":"9M24","description":"Newcastle to Liverpool Lime Street"},
+        {"time":"13:45","ref":"1P72","description":"Redcar Central to Manchester Airport"}
+      ]
+    },
+    {
+      "ref":"1P61",
+      "description":"Manchester Victoria to Redcar Central",
+      "startSpeed":"100",
+      "dataTemplate":"C185_3",
+      "increment":"2",
+      "events": [
+        "06:55;Snt;N28-31 N27-31",
+        "06:56;06:57;Dewsbury",
+        "07:09;07:14;Leeds",
+        "07:20;Fer;122-23"
+      ],
+      "times": [
+        {"time":"07:14","ref":"1P61","description":"Manchester Victoria to Redcar Central"},
+        {"time":"07:43","ref":"1P13","description":"Liverpool Lime Street to Newcastle"},
+        {"time":"08:14","ref":"1P63","description":"Manchester Airport to Redcar Central"},
+        {"time":"08:27","ref":"1E25","description":"Liverpool Lime Street to Scarborough"},
+        {"time":"08:51","ref":"9S07","description":"Liverpool Lime Street to Edinburgh"},
+        {"time":"09:14","ref":"1P65","description":"Manchester Airport to Redcar Central"},
+        {"time":"09:42","ref":"1P17","description":"Liverpool Lime Street to Newcastle"},
+        {"time":"09:52","ref":"5D08","description":"Liverpool Lime Street to York"},
+        {"time":"10:14","ref":"1P67","description":"Manchester Airport to Redcar Central"},
+        {"time":"10:42","ref":"1P19","description":"Liverpool Lime Street to Newcastle"},
+        {"time":"11:14","ref":"1P69","description":"Manchester Airport to Redcar Central"},
+        {"time":"11:42","ref":"1P21","description":"Liverpool Lime Street to Newcastle"},
+        {"time":"12:14","ref":"1P71","description":"Manchester Airport to Redcar Central"},
+        {"time":"12:42","ref":"1P23","description":"Liverpool Lime Street to Newcastle"},
+        {"time":"13:14","ref":"1P73","description":"Manchester Airport to Redcar Central"},
+        {"time":"13:42","ref":"1P25","description":"Liverpool Lime Street to Newcastle"},
+        {"time":"14:14","ref":"1P75","description":"Manchester Airport to Redcar Central"},
+        {"time":"14:42","ref":"1P27","description":"Liverpool Lime Street to Newcastle"}
+      ]
     }
   ]
 }

@@ -65,22 +65,13 @@ DONE
 
 ## Transpennine Express
 ### Hull to Manchester Piccadilly (One per hour)
-- From Hull:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:SYB/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=TP
-- To Hull:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:SYB/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=TP
+DONE
 
 ### Leeds to Huddersfield (Stopper)
-- To Leeds
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:COT/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=TP
-- From Leeds
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:COT/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=TP
+DONE
 
 ### All other TP services
-- Southbound
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:MCV/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=TP
-- Northbound
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:MCV/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=TP
+DONE
 
 
 ## LNER
