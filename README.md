@@ -12,7 +12,7 @@ A busy route covering the lines between Leeds and Bradford.
 | Naming | :heavy_check_mark:      |
 | Speed Limits | :heavy_check_mark: |
 | Distances | :heavy_check_mark: |
-| Timetable | :x: |
+| Timetable | :heavy_check_mark: |
 | Documentation | :x:|
 
 
