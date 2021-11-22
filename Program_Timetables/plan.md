@@ -7,26 +7,13 @@ Timetable Date: 22/11/2021
 DONE
 
 ### Leeds/Bradford to Ilkley
-DONE - Except services that start before the pattern reaches it.
-First Patterned Services:
-- To Leeds : 2V15
-- From Leeds : 2V12
-- To Bradford : 2D37
-- From Bradford : 2D34
+DONE
 
 ### Leeds/Bradford to Skipton (Stopper)
-DONE - Except services that start before the pattern reaches it.
-First Patterned Services:
-- To Leeds : 2H07 DONE
-- From Leeds : 2H26
-- To Bradford : 2S03 DONE
-- From Bradford : 2S12
+DONE
 
 ### Leeds to Bradford
-DONE - Except services that start before the pattern reaches it.
-First Patterned Services:
-- To Leeds : 2P23
-- From Leeds : 2P22
+DONE
 
 ### Leeds to Skipton/NORTH
 DONE
@@ -73,26 +60,27 @@ DONE
 ### All other TP services
 DONE
 
-
-## LNER
-### Leeds/Skipton/Harrogate/Bradford to London
-- From London (To Leeds and North):
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:KGX/2021-11-22/0600-2000?stp=WVS&show=pax-calls&order=wtt&toc=GR
-- To London (From Leeds and North):
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:KGX/2021-11-22/0600-2000?stp=WVS&show=pax-calls&order=wtt&toc=GR
-
-
 ## Grand Central
 ### To/From Bradford Interchange
-- To Bradford:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:BDI/from/gb-nr:HFX/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=GC
-- From Bradford:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:BDI/to/gb-nr:HFX/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=GC
+DONE
 
 
 ## Cross Country
 ### Leeds (Hourly)
-- Southbound:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/to/gb-nr:WKF/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=XC
-- Northbound:
-https://www.realtimetrains.co.uk/search/detailed/gb-nr:LDS/from/gb-nr:WKF/2021-11-22/0600-2000?stp=WVS&show=all&order=wtt&toc=XC
+DONE
+
+## LNER
+### Leeds/Skipton/Harrogate/Bradford to London
+DONE
+
+#### F Skipton
+DONE
+
+#### F Bradford
+DONE
+
+#### T/F Harrogate
+DONE
+
+#### T/F Leeds
+DONE
