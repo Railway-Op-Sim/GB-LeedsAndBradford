@@ -1,26 +1,20 @@
-# Project Title
+# Leeds and Bradford
 
-*About the project goes here*
-
-You could include:
-- Some history to the route.
-- What stations are included?
-- The type of services the route has. (Freight/Passenger)
+This route covers many of the busiest routes in West Yorkshire, including the large station of Leeds, and the two stations in Bradford. Also included are branches to Horsforth, Ilkley, Keighley and Dewsbury.
 
 ## Simulation
 
-*This section describes the timetable*
+The included timetable is a real Monday timetable, which runs from 06:00 until about 11:00, though the end time for different services differs considerably after 09:00, so this may be better considered the end time.
 
-You could include:
-- Where services go to and from.
-- How frequent the services are.
-- Any tips for operating the route.
+Also included is a pre-start session with some additional "blue" automatic routes, this may make the operation slightly easier.
+
+### Operating Tips
+- Pay close attention to services approaching Leeds from the West, as some services will need to terminate, and some continue through towards York and Hull.
+- Some services do not spend much time at Leeds before turning and leaving, so avoid setting departure routes too early for other services.
+- There are two LNER services that leave Neville Hill T.M.D. Westbound, after which, the route across could be made automatic.
 
 ## Development
 
-*This section is optional though highly recommended*
+This route is open for further development on the ROS GitHub Organisation. You can find the repository [here](https://github.com/Railway-Op-Sim/GB-LeedsAndBradford).
 
-If your route is open to contribution on the ROS GitHub, then it may be a good idea to:
-- Include a link to your project on GitHub.
-- Include any information about what could be built upon in this route.
-- Tell the reader where they can go to get help if they want to contribute.
+The timetable for this route was created using json2ttb, if you would like to make changes to the existing timetable, you may need to download it from the ROS website, or from the json2ttb GitHub repository.
