@@ -1,9 +1,13 @@
 rly_file = "LeedsAndBradford.rly"
-ttb_files = []
-ssn_files = []
+ttb_files = [ "leedsbradford.ttb",]
+ssn_files = [ "leedsbradford-prestart.ssn",]
 country_code = "GB"
 name = ""
 description = ""
 display_name = "Leedsandbradford"
 author = "Daniel Gill"
 contributors = [ "Daniel-Gill",]
+img_files = [ "LeedsAndBradford.bmp",]
+doc_files = [ "README.pdf", "README.md",]
+release_date = "2022-03-04"
+factual = true
